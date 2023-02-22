@@ -58,6 +58,7 @@ margin-left: 26px;
     color: var(--text-color);
     opacity: var(--opacity);
     font-weight: 400;
+    cursor: pointer;
 }
 
 .header-right > .languages >  .lang-item:last-child{
