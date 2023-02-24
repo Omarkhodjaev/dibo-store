@@ -4,26 +4,29 @@ import "./HeaderBottom.css";
 
 const HeaderBottom = () => {
   return (
-    <div className="container">
+    <div className="container container-bg-white">
       <div className="header-bottom-wrapper">
 
-        <div className="left">
+        <div className="header-bottom-left">
           <Link to="/" className="logo">
-            <img src="images/logo.svg" alt="Logo" />
+            <img src="images/logo.svg" alt="Dibocomputers" />
           </Link>
         </div>
 
-        <div className="right">
+        <div className="header-bottom-right">
             
-            <div className="search-wrapper">
-                <input type="search" placeholder="Qidirish" />
-                <button><img src="images/microphone.svg" alt="voice-search" /></button>
-                <button><img src="images/search.svg" alt="search" /></button>
+            <div className="search-wrapper" tabIndex={"1"}>
+                <input className="search-inp" type="text" placeholder="Qidirish" />
+                <div className="search-icons-wrapper">
+                  <button><img src="images/microphone.svg" tabIndex={"2"} alt="voice-search" /></button>
+                  <span></span>
+                  <button><img src="images/search.svg" tabIndex={"3"} alt="search" /></button>
+                </div>
             </div>
 
-            <div className="liked-wrapper">
-                <img src="images/heart.svg" alt="liked" />
-            </div>
+            <button className="sorted-wrapper" tabIndex={"3"} title={"Saralanganlar"}>
+                <img src="images/heart.svg" alt="sorted" />
+            </button>
             
         </div>
       </div>

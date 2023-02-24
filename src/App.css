@@ -7,6 +7,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  background-color: var(--dark-gray);  
+}
+
 .container{
   width: 100%;
   margin: 0 auto;

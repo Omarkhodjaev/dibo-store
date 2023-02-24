@@ -15,7 +15,7 @@
 }
 
 .header-left > li {
-margin-left: 26px;
+    margin-left: 26px;
 }
 
 .header-left > li:first-child{
@@ -26,7 +26,7 @@ margin-left: 26px;
     color: var(--text-color);
     opacity: var(--opacity);
     font-weight: 400;
-    font-size: 14px;
+    font-size: 11px;
     line-height: 16px;
 }
 
@@ -58,6 +58,7 @@ margin-left: 26px;
     color: var(--text-color);
     opacity: var(--opacity);
     font-weight: 400;
+    font-size: 11px;
     cursor: pointer;
 }
 
@@ -73,7 +74,7 @@ margin-left: 26px;
 .header-right > .phone-link > a{
     color: var(--text-color);
     font-weight: 600;
-     
+    font-size: 14px;
 }
 
 
