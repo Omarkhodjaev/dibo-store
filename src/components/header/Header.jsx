@@ -10,7 +10,7 @@ const Header = () => {
           <ul className="header-left">
             <li className="location">
               <Link to="./images/geo-alt-fill">
-                <img src="images/geo-alt-fill.png"/>
+                <img src="images/location.svg"/>
                 Tashkent
               </Link>
             </li>

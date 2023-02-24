@@ -9,14 +9,20 @@ const HeaderBottom = () => {
 
         <div className="left">
           <Link to="/" className="logo">
-            <img src="images/dibo.png" alt="Logo" />
+            <img src="images/logo.svg" alt="Logo" />
           </Link>
         </div>
 
         <div className="right">
+            
             <div className="search-wrapper">
                 <input type="search" placeholder="Qidirish" />
-                <button></button>
+                <button><img src="images/microphone.svg" alt="voice-search" /></button>
+                <button><img src="images/search.svg" alt="search" /></button>
+            </div>
+
+            <div className="liked-wrapper">
+                <img src="images/heart.svg" alt="liked" />
             </div>
             
         </div>
