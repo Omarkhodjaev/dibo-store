@@ -1,0 +1,17 @@
+.category-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.category-wrapper >  div{
+    width: 204px;
+    height: 84px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    border: 1px solid var(--text-color);
+}
