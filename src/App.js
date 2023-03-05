@@ -4,6 +4,7 @@ import Bestprice from './components/best-price/Bestprice';
 import Category from './components/category/Category';
 import HeaderBottom from './components/header-bottom/HeaderBottom';
 import Header from './components/header/Header';
+import Newproducts from './components/new-products/Newproduct';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Banner/>
       <Category/>
       <Bestprice/>
+      <Newproducts/>
     </div>
   );
 }
