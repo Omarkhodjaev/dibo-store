@@ -1,84 +1,65 @@
-.best-prices-wrapper{
-   margin-bottom: 200px;
+.best-prices-wrapper {
+  margin-bottom: 200px;
 }
 
 .best-prices-wrapper > h2 {
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 33px;
-    margin-bottom: 7px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  margin-bottom: 7px;
 }
 
-.best-prices-wrapper  > .products-wrapper{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 20px;
+.product-wrapper {
+  width: 315px;
+  padding: 29px;
+  background-color: var(--white);
+  border-radius: 2px;
+}
+.product-wrapper > .product-image {
+  text-align: center;
 }
 
-.product-wrapper{
-   /* display: grid; */
-   place-items: center;
-   border-radius: 5px;
-   padding: 29px 27px;
-   background-color: var(--white);
-
+.product-wrapper > .product-info {
+  margin-top: 15px;
+  text-align: left;
 }
 
-.product-wrapper > .product-info{
-    margin-top: 15px;
+.product-info > h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
 }
 
-.product-info > h3{
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
+.product-info .product-about {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 141.19%;
+  color: var(--text-color);
+  opacity: 0.4;
+  margin: 5px 0px 8px 0px;
 }
 
-.product-info  p.product-about{
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 141.19%;
-    color: var(--text-color);
-    opacity: 0.4;
-}
-
-.product-info  p.product-price{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    color: var(--text-color);
+.product-info .product-price {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--text-color);
 }
 
 .product-wrapper .product-btn{
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 24px;
     gap: 8px;
 }
 
-.product-btn button.product-buy{
+.product-btn .product-buy{
+    width: 100%;
+    margin-top: 24px;
+    border: none;
     background-color: var(--primary-color);
-    padding: 13px 47px;
     border-radius: 2px;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
+    padding: 14px 47px;
     color: var(--white);
-    border: 1px solid transparent;
-    width: 80%;
     cursor: pointer;
-}
-
-.product-btn button.product-sort{
-    background-color: var(--white);
-    padding: 7px;
-    border: 1px solid rgba(4, 26, 26, 0.1);
-    border-radius: 2px;
-    cursor: pointer;
-}
-
-button.product-sort > svg{
-    font-size: 24px;
 }

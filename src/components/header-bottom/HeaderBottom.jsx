@@ -4,7 +4,8 @@ import "./HeaderBottom.css";
 
 const HeaderBottom = () => {
   return (
-    <div className="container container-bg-white">
+    <header className="bc-white">
+    <div className="container">
       <div className="header-bottom-wrapper">
         <div className="header-bottom-left">
           <Link to="/" className="logo">
@@ -131,6 +132,7 @@ const HeaderBottom = () => {
         </div>
       </div>
     </div>
+    </header>
   );
 };
 

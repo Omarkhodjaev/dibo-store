@@ -1,4 +1,17 @@
-[{
+[
+  {
+    "image": "images/product.svg",
+    "name": "Noutbuk DELL VOSTRO 3590/8192",
+    "about": "i5-10210U 8GB 256GB NVMe 15,6 FullHD LED LCD",
+    "price": "6 996 000 so'm"
+  },
+  {
+    "image": "images/product.svg",
+    "name": "Noutbuk DELL VOSTRO 3590/8192",
+    "about": "i5-10210U 8GB 256GB NVMe 15,6 FullHD LED LCD",
+    "price": "6 996 000 so'm"
+  },
+  {
     "image": "images/product.svg",
     "name": "Noutbuk DELL VOSTRO 3590/8192",
     "about": "i5-10210U 8GB 256GB NVMe 15,6 FullHD LED LCD",
@@ -21,4 +34,5 @@
     "name": "Noutbuk DELL VOSTRO 3590/8192",
     "about": "i5-10210U 8GB 256GB NVMe 15,6 FullHD LED LCD",
     "price": "6 996 000 so'm"
-  }]
+  }
+]
